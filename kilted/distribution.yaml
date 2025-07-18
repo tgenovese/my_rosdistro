@@ -9,6 +9,11 @@ release_platforms:
   - noble
 repositories:
   my_package:
+    release:
+      tags:
+        release: release/kilted/{package}/{version}
+      url: git@github.com:tgenovese/my_package-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/tgenovese/my_package.git
