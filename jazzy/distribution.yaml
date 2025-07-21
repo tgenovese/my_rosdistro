@@ -34,5 +34,17 @@ repositories:
       url: https://github.com/tgenovese/my_package.git
       version: main
     status: developed
+  spdlog_vendor:
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/spdlog_vendor-release.git
+      version: 1.6.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/spdlog_vendor.git
+      version: jazzy
+    status: maintained
 type: distribution
 version: 2
