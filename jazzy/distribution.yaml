@@ -29,7 +29,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/libyaml_vendor-release.git
-      version: 1.6.3-2
+      version: 1.6.3-3
     source:
       test_pull_requests: true
       type: git
