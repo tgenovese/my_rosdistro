@@ -24,6 +24,18 @@ repositories:
       url: https://github.com/ros2/console_bridge_vendor.git
       version: jazzy
     status: maintained
+  libyaml_vendor:
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/libyaml_vendor-release.git
+      version: 1.6.3-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/libyaml_vendor.git
+      version: jazzy
+    status: maintained
   mimick_vendor:
     doc:
       type: git
