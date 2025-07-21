@@ -79,7 +79,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/ros2_tracing-release.git
-      version: 8.2.3-1
+      version: 8.2.3-2
     source:
       test_pull_requests: true
       type: git
