@@ -7,7 +7,7 @@ distributions:
     distribution:
     - https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/humble/distribution.yaml
     - humble/distribution.yaml
-    distribution_cache: rosdistro_cache/humble-cache.yaml.gz
+    distribution_cache: https://raw.githubusercontent.com/tgenovese/my_rosdistro/main/rosdistro_cache/humble-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
     python_version: 3
@@ -15,7 +15,7 @@ distributions:
     distribution:
     - https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/jazzy/distribution.yaml
     - jazzy/distribution.yaml
-    distribution_cache: rosdistro_cache/jazzy-cache.yaml.gz
+    distribution_cache: https://raw.githubusercontent.com/tgenovese/my_rosdistro/main/rosdistro_cache/jazzy-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
     python_version: 3
@@ -23,7 +23,7 @@ distributions:
     distribution:
     - https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/kilted/distribution.yaml
     - kilted/distribution.yaml
-    distribution_cache: rosdistro_cache/kilted-cache.yaml.gz
+    distribution_cache: https://raw.githubusercontent.com/tgenovese/my_rosdistro/main/rosdistro_cache/kilted-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
     python_version: 3
@@ -31,7 +31,7 @@ distributions:
     distribution:
     - https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rolling/distribution.yaml
     - rolling/distribution.yaml
-    distribution_cache: rosdistro_cache/rolling-cache.yaml.gz
+    distribution_cache: https://raw.githubusercontent.com/tgenovese/my_rosdistro/main/rosdistro_cache/rolling-cache.yaml.gz
     distribution_status: rolling
     distribution_type: ros2
     python_version: 3
