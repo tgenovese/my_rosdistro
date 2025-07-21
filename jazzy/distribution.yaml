@@ -8,6 +8,21 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  mimick_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros2/mimick_vendor.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/mimick_vendor-release.git
+      version: 0.6.2-1
+    source:
+      type: git
+      url: https://github.com/ros2/mimick_vendor.git
+      version: jazzy
+    status: maintained
   my_package:
     release:
       tags:
