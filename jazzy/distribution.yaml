@@ -39,7 +39,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/spdlog_vendor-release.git
-      version: 1.6.1-1
+      version: 1.6.1-2
     source:
       test_pull_requests: true
       type: git
