@@ -8,6 +8,23 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  class_loader:
+    doc:
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      # Regenerated outdated debian files with bloom-release
+      url: https://github.com/tgenovese/class_loader-release.git
+      version: 2.7.0-3
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: jazzy
+    status: maintained
   console_bridge_vendor:
     doc:
       type: git
@@ -16,6 +33,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
+      # Regenerated outdated debian files with bloom-release
       url: https://github.com/tgenovese/console_bridge_vendor-release.git
       version: 1.7.1-4
     source:
@@ -28,6 +46,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
+      # Regenerated outdated debian files with bloom-release
       url: https://github.com/tgenovese/libyaml_vendor-release.git
       version: 1.6.3-3
     source:
@@ -44,6 +63,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
+      # Regenerated outdated debian files with bloom-release
       url: https://github.com/tgenovese/mimick_vendor-release.git
       version: 0.6.2-2
     source:
@@ -78,6 +98,7 @@ repositories:
       - tracetools_trace
       tags:
         release: release/jazzy/{package}/{version}
+      # Added a missing dependency on ament_cmake to tracetools
       url: https://github.com/tgenovese/ros2_tracing-release.git
       version: 8.2.3-3
     source:
@@ -90,6 +111,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
+      # Regenerated outdated debian files with bloom-release
       url: https://github.com/tgenovese/spdlog_vendor-release.git
       version: 1.6.1-2
     source:
