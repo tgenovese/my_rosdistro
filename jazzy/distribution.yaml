@@ -62,6 +62,30 @@ repositories:
       url: https://github.com/tgenovese/my_package.git
       version: main
     status: developed
+  ros2_tracing:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros2_tracing.git
+      version: jazzy
+    release:
+      packages:
+      - lttngpy
+      - ros2trace
+      - tracetools
+      - tracetools_launch
+      - tracetools_read
+      - tracetools_test
+      - tracetools_trace
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/ros2_tracing-release.git
+      version: 8.2.3-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros2_tracing.git
+      version: jazzy
+    status: developed
   spdlog_vendor:
     release:
       tags:
