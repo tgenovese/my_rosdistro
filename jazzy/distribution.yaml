@@ -40,6 +40,22 @@ repositories:
       url: https://github.com/ros2/console_bridge_vendor.git
       version: jazzy
     status: maintained
+  kdl_parser:
+    doc:
+      type: git
+      url: https://github.com/ros/kdl_parser.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/kdl_parser-release.git
+      version: 2.11.0-3
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/kdl_parser.git
+      version: jazzy
+    status: maintained
   libyaml_vendor:
     release:
       tags:
