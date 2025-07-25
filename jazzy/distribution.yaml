@@ -78,6 +78,27 @@ repositories:
       url: https://github.com/tgenovese/my_package.git
       version: main
     status: developed
+  rclcpp:
+    doc:
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: jazzy
+    release:
+      packages:
+      - rclcpp
+      - rclcpp_action
+      - rclcpp_components
+      - rclcpp_lifecycle
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rclcpp-release.git
+      version: 28.1.10-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: jazzy
+    status: maintained
   rmw_implementation:
     doc:
       type: git
