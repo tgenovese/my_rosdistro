@@ -78,6 +78,21 @@ repositories:
       url: https://github.com/tgenovese/my_package.git
       version: main
     status: developed
+  orocos_kdl_vendor:
+    release:
+      packages:
+      - orocos_kdl_vendor
+      - python_orocos_kdl_vendor
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/orocos_kdl_vendor-release.git
+      version: 0.5.1-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/orocos_kdl_vendor.git
+      version: jazzy
+    status: developed
   rclcpp:
     doc:
       type: git
