@@ -92,7 +92,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/rclcpp-release.git
-      version: 28.1.10-1
+      version: 28.1.10-2
     source:
       test_pull_requests: true
       type: git
