@@ -1,0 +1,87 @@
+# Custom Jazzy layer to fix Debian Bookworm build
+
+This layer references forks of release repositories for the
+following packages or stacks.
+
+## ament_cmake_ros
+
+Rebloomed to fix Debian dependencies of ament_cmake_ros,
+most notably to get a correct `ros-jazzy-ament-cmake`
+dependency.
+
+## angles
+
+Rebloomed to fix Debian dependencies.
+
+## class_loader
+
+Rebloomed to fix Debian dependencies.
+
+## console_bridge_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## diagnostics
+
+Rebloomed to fix Debian dependencies of diagnostic_updater.
+
+## kdl_parser
+
+Rebloomed to fix Debian dependencies.
+
+## libyaml_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## mimick_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## orocos_kdl_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## pcl_msgs
+
+Rebloomed to fix Debian dependencies.
+
+## rmw_implementation
+
+Remove dependency on connextdds as it does not exist on bookworm.
+
+See [this commit](https://github.com/tgenovese/rmw_implementation-release/commit/c9ac83b35e368aebc58e5c4ffd50321546b06f9e).
+
+## robot_state_publisher
+
+Rebloomed to fix Debian dependencies.
+
+## rosidl_core
+
+Rebloomed to fix Debian dependencies of rosidl_core_generators,
+most notably to get `ros-jazzy-rosidl-typesupport-introspection-c`
+and `ros-jazzy-rosidl-typesupport-introspection-cpp` dependencies.
+
+## rosidl_dds
+
+Rebloomed to fix Debian dependencies of rosidl_generator_dds_idl.
+
+## rosidl_defaults
+
+Rebloomed to fix Debian dependencies of rosidl_default_runtime and
+rosidl_default_generators.
+
+## rosidl_dynamic_typesupport
+
+Rebloomed to fix Debian dependencies.
+
+## spdlog_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## tlsf
+
+Rebloomed to fix Debian dependencies.
+
+## urdf
+
+Rebloomed to fix Debian dependencies of urdf and urdf_parser_plugin.
