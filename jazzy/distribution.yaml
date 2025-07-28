@@ -98,28 +98,6 @@ repositories:
       url: https://github.com/ros/diagnostics.git
       version: ros2-jazzy
     status: maintained
-  image_transport_plugins:
-    doc:
-      type: git
-      url: https://github.com/ros-perception/image_transport_plugins.git
-      version: jazzy
-    release:
-      packages:
-      - compressed_depth_image_transport
-      - compressed_image_transport
-      - image_transport_plugins
-      - theora_image_transport
-      - zstd_image_transport
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/image_transport_plugins-release.git
-      version: 4.0.5-2
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-perception/image_transport_plugins.git
-      version: jazzy
-    status: maintained
   kdl_parser:
     doc:
       type: git
@@ -163,17 +141,6 @@ repositories:
       url: https://github.com/ros2/mimick_vendor.git
       version: jazzy
     status: maintained
-  my_package:
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/my_package-release.git
-      version: 0.0.1-1
-    source:
-      type: git
-      url: https://github.com/tgenovese/my_package.git
-      version: main
-    status: developed
   orocos_kdl_vendor:
     release:
       packages:
@@ -199,27 +166,6 @@ repositories:
       type: git
       url: https://github.com/ros-perception/pcl_msgs.git
       version: ros2
-    status: maintained
-  rclcpp:
-    doc:
-      type: git
-      url: https://github.com/ros2/rclcpp.git
-      version: jazzy
-    release:
-      packages:
-      - rclcpp
-      - rclcpp_action
-      - rclcpp_components
-      - rclcpp_lifecycle
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/rclcpp-release.git
-      version: 28.1.10-2
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/rclcpp.git
-      version: jazzy
     status: maintained
   rmw_implementation:
     doc:
@@ -253,30 +199,6 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: jazzy
     status: maintained
-  ros2_tracing:
-    doc:
-      type: git
-      url: https://github.com/ros2/ros2_tracing.git
-      version: jazzy
-    release:
-      packages:
-      - lttngpy
-      - ros2trace
-      - tracetools
-      - tracetools_launch
-      - tracetools_read
-      - tracetools_test
-      - tracetools_trace
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/tgenovese/ros2_tracing-release.git
-      version: 8.2.3-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/ros2_tracing.git
-      version: jazzy
-    status: developed
   rosidl_core:
     doc:
       type: git
