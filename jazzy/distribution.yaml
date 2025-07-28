@@ -296,6 +296,25 @@ repositories:
       url: https://github.com/ros2/rosidl_core.git
       version: jazzy
     status: maintained
+  rosidl_defaults:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: jazzy
+    release:
+      packages:
+      - rosidl_default_generators
+      - rosidl_default_runtime
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rosidl_defaults-release.git
+      version: 1.6.0-3
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: jazzy
+    status: maintained
   rosidl_dynamic_typesupport:
     doc:
       type: git
