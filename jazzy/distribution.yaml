@@ -146,6 +146,22 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: jazzy
     status: developed
+  robot_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/robot_state_publisher-release.git
+      version: 3.3.3-3
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: jazzy
+    status: maintained
   ros2_tracing:
     doc:
       type: git
