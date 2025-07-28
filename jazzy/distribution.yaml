@@ -277,6 +277,25 @@ repositories:
       url: https://github.com/ros2/ros2_tracing.git
       version: jazzy
     status: developed
+  rosidl_core:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_core.git
+      version: jazzy
+    release:
+      packages:
+      - rosidl_core_generators
+      - rosidl_core_runtime
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rosidl_core-release.git
+      version: 0.2.0-3
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_core.git
+      version: jazzy
+    status: maintained
   rosidl_dynamic_typesupport:
     doc:
       type: git
