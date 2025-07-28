@@ -63,6 +63,28 @@ repositories:
       url: https://github.com/ros/diagnostics.git
       version: ros2-jazzy
     status: maintained
+  image_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: jazzy
+    release:
+      packages:
+      - compressed_depth_image_transport
+      - compressed_image_transport
+      - image_transport_plugins
+      - theora_image_transport
+      - zstd_image_transport
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/image_transport_plugins-release.git
+      version: 4.0.5-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: jazzy
+    status: maintained
   kdl_parser:
     doc:
       type: git
