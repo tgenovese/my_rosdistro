@@ -543,7 +543,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/tango_icons_vendor-release.git
-      version: 0.3.0-3
+      version: 0.3.0-4
     source:
       type: git
       url: https://github.com/ros-visualization/tango_icons_vendor.git
