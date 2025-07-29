@@ -31,7 +31,27 @@ Rebloomed to fix Debian dependencies of:
 
 Rebloomed to fix Debian dependencies of diagnostic_updater.
 
+## eigen3_cmake_module
+
+Rebloomed to fix Debian dependencies.
+
+## example_interfaces
+
+Rebloomed to fix Debian dependencies.
+
+## foonathan_memory_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## joystick_drivers
+
+Rebloomed to fix Debian dependencies of sdl2_vendor.
+
 ## kdl_parser
+
+Rebloomed to fix Debian dependencies.
+
+## keyboard_handler
 
 Rebloomed to fix Debian dependencies.
 
@@ -52,6 +72,22 @@ Rebloomed to fix Debian dependencies of map_msgs.
 Rebloomed to fix Debian dependencies.
 
 ## pcl_msgs
+
+Rebloomed to fix Debian dependencies.
+
+## performance_test_fixture
+
+Rebloomed to fix Debian dependencies.
+
+## pluginlib
+
+Rebloomed to fix Debian dependencies.
+
+## python_cmake_module
+
+Rebloomed to fix Debian dependencies.
+
+## python_qt_binding
 
 Rebloomed to fix Debian dependencies.
 
@@ -102,11 +138,31 @@ rosidl_default_generators.
 
 Rebloomed to fix Debian dependencies.
 
+## rosidl_dynamic_typesupport_fastrtps
+
+Rebloomed to fix Debian dependencies.
+
 ## spdlog_vendor
 
 Rebloomed to fix Debian dependencies.
 
+## tango_icons_vendor
+
+Rebloomed to fix Debian dependencies.
+
+## test_interface_files
+
+Rebloomed to fix Debian dependencies.
+
+## tinyxml2_vendor
+
+Rebloomed to fix Debian dependencies.
+
 ## tlsf
+
+Rebloomed to fix Debian dependencies.
+
+## unique_identifier_msgs
 
 Rebloomed to fix Debian dependencies.
 
