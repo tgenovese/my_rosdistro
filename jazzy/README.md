@@ -21,6 +21,12 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## demos
+
+Rebloomed to fix Debian dependencies of:
+ * action_tutorials_interfaces
+ * pendulum_msgs
+
 ## diagnostics
 
 Rebloomed to fix Debian dependencies of diagnostic_updater.
