@@ -519,7 +519,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/rosidl_dynamic_typesupport_fastrtps-release.git
-      version: 0.1.0-3
+      version: 0.1.0-4
     source:
       test_pull_requests: true
       type: git
