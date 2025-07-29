@@ -205,7 +205,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/rcl_interfaces-release.git
-      version: 2.0.2-2
+      version: 2.0.2-3
     source:
       test_pull_requests: true
       type: git
