@@ -185,6 +185,22 @@ repositories:
       url: https://github.com/ros-perception/pcl_msgs.git
       version: ros2
     status: maintained
+  rmw_dds_common:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_dds_common.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rmw_dds_common-release.git
+      version: 3.1.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_dds_common.git
+      version: jazzy
+    status: maintained
   rmw_implementation:
     doc:
       type: git

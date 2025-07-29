@@ -49,6 +49,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## rmw_dds_common
+
+Rebloomed to fix Debian dependencies.
+
 ## rmw_implementation
 
 Remove dependency on connextdds as it does not exist on bookworm.
