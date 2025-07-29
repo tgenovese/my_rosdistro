@@ -465,7 +465,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/ros_testing-release.git
-      version: 0.6.0-3
+      version: 0.6.0-4
     source:
       test_pull_requests: true
       type: git
