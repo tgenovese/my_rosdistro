@@ -447,7 +447,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/tgenovese/ros2cli_common_extensions-release.git
-      version: 0.3.0-3
+      version: 0.3.0-4
     source:
       type: git
       url: https://github.com/ros2/ros2cli_common_extensions.git
