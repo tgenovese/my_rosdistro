@@ -49,6 +49,20 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## rcl_interfaces
+
+Rebloomed to fix Debian dependencies of:
+ * action_msgs
+ * builtin_interfaces
+ * composition_interfaces
+ * lifecycle_msgs
+ * rcl_interfaces
+ * rosgraph_msgs
+ * service_msgs
+ * statistics_msgs
+ * test_msgs
+ * type_description_interfaces
+
 ## rmw_dds_common
 
 Rebloomed to fix Debian dependencies.

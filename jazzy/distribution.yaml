@@ -185,6 +185,33 @@ repositories:
       url: https://github.com/ros-perception/pcl_msgs.git
       version: ros2
     status: maintained
+  rcl_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl_interfaces.git
+      version: jazzy
+    release:
+      packages:
+      - action_msgs
+      - builtin_interfaces
+      - composition_interfaces
+      - lifecycle_msgs
+      - rcl_interfaces
+      - rosgraph_msgs
+      - service_msgs
+      - statistics_msgs
+      - test_msgs
+      - type_description_interfaces
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rcl_interfaces-release.git
+      version: 2.0.2-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl_interfaces.git
+      version: jazzy
+    status: maintained
   rmw_dds_common:
     doc:
       type: git
