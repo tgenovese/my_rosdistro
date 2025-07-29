@@ -438,6 +438,40 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: jazzy
     status: maintained
+  ros2cli_common_extensions:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros2cli_common_extensions.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/ros2cli_common_extensions-release.git
+      version: 0.3.0-3
+    source:
+      type: git
+      url: https://github.com/ros2/ros2cli_common_extensions.git
+      version: jazzy
+    status: maintained
+  ros_testing:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: jazzy
+    release:
+      packages:
+      - ros2test
+      - ros_testing
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/ros_testing-release.git
+      version: 0.6.0-3
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: jazzy
+    status: maintained
   rosidl_core:
     doc:
       type: git

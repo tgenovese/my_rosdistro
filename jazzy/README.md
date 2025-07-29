@@ -119,6 +119,14 @@ See [this commit](https://github.com/tgenovese/rmw_implementation-release/commit
 
 Rebloomed to fix Debian dependencies.
 
+## ros2cli_common_extensions
+
+Rebloomed to fix Debian dependencies.
+
+## ros_testing
+
+Rebloomed to fix Debian dependencies of ros_testing.
+
 ## rosidl_core
 
 Rebloomed to fix Debian dependencies of rosidl_core_generators,
