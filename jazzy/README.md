@@ -27,6 +27,10 @@ Rebloomed to fix Debian dependencies of:
  * action_tutorials_interfaces
  * pendulum_msgs
 
+## depthimage_to_laserscan
+
+Rebloomed to fix Debian dependencies.
+
 ## diagnostics
 
 Rebloomed to fix Debian dependencies of diagnostic_updater.
@@ -127,6 +131,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies of ros_testing.
 
+## ros_tutorials
+
+Rebloomed to fix Debian dependencies of turtlesim.
+
 ## rosidl_core
 
 Rebloomed to fix Debian dependencies of rosidl_core_generators,
@@ -149,6 +157,13 @@ Rebloomed to fix Debian dependencies.
 ## rosidl_dynamic_typesupport_fastrtps
 
 Rebloomed to fix Debian dependencies.
+
+## rqt
+
+Rebloomed to fix Debian dependencies of:
+ * rqt_gui
+ * rqt_gui_cpp
+ * rqt_py_common
 
 ## spdlog_vendor
 
