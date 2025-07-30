@@ -165,6 +165,10 @@ Rebloomed to fix Debian dependencies of:
  * rqt_gui_cpp
  * rqt_py_common
 
+## rqt_image_view
+
+Rebloomed to fix Debian dependencies.
+
 ## spdlog_vendor
 
 Rebloomed to fix Debian dependencies.

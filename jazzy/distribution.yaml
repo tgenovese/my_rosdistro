@@ -616,6 +616,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt.git
       version: jazzy
     status: maintained
+  rqt_image_view:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_image_view.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rqt_image_view-release.git
+      version: 1.3.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_image_view.git
+      version: jazzy
+    status: maintained
   spdlog_vendor:
     release:
       tags:
