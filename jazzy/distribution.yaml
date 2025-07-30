@@ -194,6 +194,22 @@ repositories:
       url: https://github.com/eProsima/foonathan_memory_vendor.git
       version: master
     status: maintained
+  interactive_markers:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/interactive_markers-release.git
+      version: 2.5.4-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: jazzy
+    status: maintained
   joystick_drivers:
     doc:
       type: git

@@ -47,6 +47,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies.
 
+## interactive_markers
+
+Rebloomed to fix Debian dependencies.
+
 ## joystick_drivers
 
 Rebloomed to fix Debian dependencies of sdl2_vendor.
