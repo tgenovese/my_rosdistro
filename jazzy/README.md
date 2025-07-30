@@ -75,6 +75,10 @@ Rebloomed to fix Debian dependencies.
 
 Rebloomed to fix Debian dependencies of map_msgs.
 
+## nmea_msgs
+
+Rebloomed to fix Debian dependencies.
+
 ## orocos_kdl_vendor
 
 Rebloomed to fix Debian dependencies.

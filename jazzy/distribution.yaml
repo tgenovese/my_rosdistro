@@ -310,6 +310,21 @@ repositories:
       url: https://github.com/ros-planning/navigation_msgs.git
       version: jazzy
     status: maintained
+  nmea_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/nmea_msgs-release.git
+      version: 2.1.0-3
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_msgs.git
+      version: ros2
+    status: maintained
   orocos_kdl_vendor:
     release:
       packages:
