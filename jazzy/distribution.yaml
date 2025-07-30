@@ -632,6 +632,21 @@ repositories:
       url: https://github.com/ros-visualization/rqt.git
       version: jazzy
     status: maintained
+  rqt_common_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_common_plugins.git
+      version: ros2
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/tgenovese/rqt_common_plugins-release.git
+      version: 1.2.0-4
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_common_plugins.git
+      version: ros2
+    status: maintained
   rqt_image_view:
     doc:
       type: git
