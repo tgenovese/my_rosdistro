@@ -8,6 +8,19 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  hel_fot_control:
+    release:
+      packages:
+      - fot_control
+      tags:
+        release: version/{version}
+      url: DOES-NOT-EXIST
+      version: 1.0.0
+    source:
+      type: git
+      url: https://gitlab.vtti.vt.edu/hel/GeneralSoftware/sol4/hel-ros-fot-control.git
+      version: release/1.0
+    status: developed
   my_package:
     release:
       tags:
